@@ -99,8 +99,8 @@ set $ws1 "1:"
 set $ws2 "2:"
 set $ws3 "3:"
 set $ws4 "4:"
-set $ws5 "5"
-set $ws6 "6"
+set $ws5 "5:"
+set $ws6 "6:"
 set $ws7 "7"
 set $ws8 "8"
 set $ws9 "9"
@@ -176,7 +176,7 @@ bindsym $mod+d exec rofi -show run
 exec --no-startup-id nm-applet
 
 #launch feh for the backround
-exec feh --bg-scale /usr/share/backgrounds/mybackrounds/backround2.jpg
+exec feh --bg-scale /usr/share/backgrounds/mybackrounds/backround4
 
 #launch compton
 exec_always --no-startup-id compton --config ~/.config/compton/compton.conf -b
@@ -198,7 +198,7 @@ bar {
 	position top
 	tray_output none
 	colors {
-                background #00000000
+                background #0f131f99
                 statusline #FFFFFF
 				focused_workspace  #00000000 #d9d9d9 #0d0d0d
 				active_workspace   #333333 #5f676a #ffffff
